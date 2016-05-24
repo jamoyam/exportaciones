@@ -19,7 +19,15 @@ class Usuario{
 		return $this->nidacceso;
 	}
 	
-	function VerificaUsuario(){
+        public function getSnombre() {
+            return $this->snombre;
+        }
+
+        public function getSclave() {
+            return $this->sclave;
+        }
+
+        	function VerificaUsuario(){
 		$db=dbconnect();
 		/*Definici�n del query que permitira ingresar un nuevo registro*/
 		$sqlsel="select nombre from acceso
