@@ -1,7 +1,3 @@
-<?php
-$oUsuario=new Usuario();
-?>
-
 <form id="cambioclave" action="GET" >
         <fieldset>
         <legend>Personal information:</legend>
